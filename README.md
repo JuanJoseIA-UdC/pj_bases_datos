@@ -18,30 +18,26 @@ y sus anexos se entregan por separado.
 ## Inicio rápido
 
 1. Clonar el repositorio y navegar a la carpeta de implementación:
-   ```powershell
-   cd .\pj_bases_datos
-
+```powershell
+cd .\pj_bases_datos
 ```
 
 2. Configurar las variables de entorno:
 Copiar la plantilla de ejemplo y crear el archivo local `.env`:
 ```powershell
 Copy-Item .env.example .env
-
 ```
 
 
 Abrir el archivo `.env` y asignar la cadena de conexión directa de su proyecto en Neon:
 ```env
 DATABASE_URL="postgresql://usuario:password@ep-ejemplo-123456.us-east-2.aws.neon.tech/cadena_custodia?sslmode=require"
-
 ```
 
 
 3. Ejecutar la validación del esquema y pruebas de integridad:
 ```powershell
 .\scripts\validar_entrega.ps1
-
 ```
 
 
