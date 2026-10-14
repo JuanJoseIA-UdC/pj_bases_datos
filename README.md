@@ -1,6 +1,3 @@
-Aquí tienes la versión actualizada del **`README.md`**, adaptada por completo a **Neon (PostgreSQL Serverless + pgvector)** y eliminando cualquier referencia a Docker:
-
-```markdown
 # Sistema híbrido relacional-vectorial — Entrega 1
 
 Proyecto de Bases de Datos Relacionales de la Universidad de Caldas para la
@@ -58,7 +55,4 @@ el detalle de los archivos, estructura de directorios y evidencias de ejecución
 
 * **Entrega 1:** Universo del discurso, diseño conceptual (ERD en notación Chen), diseño lógico normalizado en 3FN, esquema SQL (14 tablas relacionales y vectoriales con `pgvector`), entorno ejecutable en la nube con Neon, plan experimental de chunking y validación de integridad.
 
-Las credenciales y variables de conexión están estrictamente excluidas de Git mediante `.gitignore`.
 La plantilla [`.env.example`](https://www.google.com/search?q=pj_bases_datos/.env.example) permite reproducir el entorno en cualquier instancia compatible sin compartir credenciales de acceso.
-
-```
