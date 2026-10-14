@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+
+# Documentos e informes locales
+/docs/
+
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.pyc
+*.log
+*.bak
+.DS_Store
+.vscode/
+.idea/
+data/
+outputs/
